@@ -1,0 +1,180 @@
+[
+  {
+    "id": "comp1511",
+    "code": "COMP1511",
+    "name": "Programming Fundamentals",
+    "description": "Introduction to programming in C, focusing on fundamental concepts including data types, control structures, functions, and basic algorithms.",
+    "color": "#2196F3",
+    "faculty": "Engineering",
+    "semester": "T1",
+    "year": 2025,
+    "credits": 6,
+    "prerequisites": [],
+    "sessions": [
+      {
+        "id": "comp1511-lec",
+        "type": "Lecture",
+        "duration": 2,
+        "location": "Mathews A",
+        "instructor": "Dr. Smith"
+      },
+      {
+        "id": "comp1511-tut",
+        "type": "Tutorial",
+        "duration": 1,
+        "location": "CSE Labs",
+        "instructor": "TA John"
+      },
+      {
+        "id": "comp1511-lab",
+        "type": "Lab",
+        "duration": 3,
+        "location": "CSE G07",
+        "instructor": "TA Sarah"
+      }
+    ],
+    "ratings": [],
+    "averageRating": 0
+  },
+  {
+    "id": "comp1521",
+    "code": "COMP1521",
+    "name": "Computer Systems Fundamentals",
+    "description": "Introduction to computer systems, including machine-level programming, computer arithmetic, and system-level programming.",
+    "color": "#4CAF50",
+    "faculty": "Engineering",
+    "semester": "T1",
+    "year": 2025,
+    "credits": 6,
+    "prerequisites": ["COMP1511"],
+    "sessions": [
+      {
+        "id": "comp1521-lec",
+        "type": "Lecture",
+        "duration": 2,
+        "location": "CLB 7",
+        "instructor": "Prof. Wilson"
+      },
+      {
+        "id": "comp1521-tut",
+        "type": "Tutorial",
+        "duration": 1,
+        "location": "CSE Labs",
+        "instructor": "TA Mike"
+      },
+      {
+        "id": "comp1521-lab",
+        "type": "Lab",
+        "duration": 2,
+        "location": "CSE G08",
+        "instructor": "TA Lisa"
+      }
+    ],
+    "ratings": [],
+    "averageRating": 0
+  },
+  {
+    "id": "comp1531",
+    "code": "COMP1531",
+    "name": "Software Engineering Fundamentals",
+    "description": "Principles and practice of software development, including design, implementation, testing, and maintenance of software systems.",
+    "color": "#FF9800",
+    "faculty": "Engineering",
+    "semester": "T1",
+    "year": 2025,
+    "credits": 6,
+    "prerequisites": ["COMP1511"],
+    "sessions": [
+      {
+        "id": "comp1531-lec",
+        "type": "Lecture",
+        "duration": 2,
+        "location": "Mathews B",
+        "instructor": "Dr. Johnson"
+      },
+      {
+        "id": "comp1531-tut",
+        "type": "Tutorial",
+        "duration": 1,
+        "location": "CSE Labs",
+        "instructor": "TA Alex"
+      },
+      {
+        "id": "comp1531-lab",
+        "type": "Lab",
+        "duration": 3,
+        "location": "CSE G09",
+        "instructor": "TA Emma"
+      }
+    ],
+    "ratings": [],
+    "averageRating": 0
+  },
+  {
+    "id": "math1081",
+    "code": "MATH1081",
+    "name": "Discrete Mathematics",
+    "description": "Mathematical foundations for computer science including logic, set theory, combinatorics, and graph theory.",
+    "color": "#9C27B0",
+    "faculty": "Science",
+    "semester": "T1",
+    "year": 2025,
+    "credits": 6,
+    "prerequisites": [],
+    "sessions": [
+      {
+        "id": "math1081-lec",
+        "type": "Lecture",
+        "duration": 3,
+        "location": "Central Lecture Block 1",
+        "instructor": "Prof. Chen"
+      },
+      {
+        "id": "math1081-tut",
+        "type": "Tutorial",
+        "duration": 1,
+        "location": "RC-4082",
+        "instructor": "TA David"
+      }
+    ],
+    "ratings": [],
+    "averageRating": 0
+  },
+  {
+    "id": "math1131",
+    "code": "MATH1131",
+    "name": "Mathematics 1A",
+    "description": "Calculus and linear algebra including differentiation, integration, and matrix operations.",
+    "color": "#E91E63",
+    "faculty": "Science",
+    "semester": "T1",
+    "year": 2025,
+    "credits": 6,
+    "prerequisites": [],
+    "sessions": [
+      {
+        "id": "math1131-lec",
+        "type": "Lecture",
+        "duration": 3,
+        "location": "Central Lecture Block 2",
+        "instructor": "Dr. Brown"
+      },
+      {
+        "id": "math1131-tut",
+        "type": "Tutorial",
+        "duration": 1,
+        "location": "RC-4081",
+        "instructor": "TA Sophie"
+      },
+      {
+        "id": "math1131-lab",
+        "type": "Lab",
+        "duration": 1,
+        "location": "Computer Lab 1",
+        "instructor": "TA Mark"
+      }
+    ],
+    "ratings": [],
+    "averageRating": 0
+  }
+]

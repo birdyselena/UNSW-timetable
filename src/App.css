@@ -1,0 +1,386 @@
+.App {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.app-header {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.header-left h1 {
+  margin: 0 0 0.25rem 0;
+  color: #333;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.header-left p {
+  margin: 0;
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.theme-toggle {
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.theme-toggle:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: scale(1.1);
+}
+
+.user-menu {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  backdrop-filter: blur(10px);
+}
+
+.welcome-text {
+  color: #333;
+  font-weight: 500;
+}
+
+.logout-btn,
+.login-btn {
+  background: linear-gradient(135deg, #dc3545, #c82333);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.login-btn {
+  background: linear-gradient(135deg, #28a745, #20c997);
+}
+
+.logout-btn:hover,
+.login-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.app-header h1 {
+  margin: 0 0 0.5rem 0;
+  color: #333;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.app-header p {
+  margin: 0;
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.app-main {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 1rem 2rem 1rem;
+}
+
+.search-section {
+  margin-bottom: 2rem;
+}
+
+.timetable-section {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.selected-courses {
+  margin-bottom: 2rem;
+}
+
+.selected-courses h3 {
+  margin: 0 0 1rem 0;
+  color: #333;
+  font-size: 1.3rem;
+}
+
+.selected-courses-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.selected-course-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.selected-course-item:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.course-actions {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.details-btn,
+.compare-btn,
+.remove-btn {
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.details-btn {
+  background: rgba(102, 126, 234, 0.1);
+  color: #667eea;
+}
+
+.details-btn:hover {
+  background: rgba(102, 126, 234, 0.2);
+  transform: scale(1.1);
+}
+
+.compare-btn {
+  background: rgba(74, 144, 226, 0.1);
+  color: #4a90e2;
+}
+
+.compare-btn:hover {
+  background: rgba(74, 144, 226, 0.2);
+  transform: scale(1.1);
+}
+
+.remove-btn {
+  background: rgba(255, 107, 107, 0.1);
+  color: #ff6b6b;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.remove-btn:hover {
+  background: rgba(255, 107, 107, 0.2);
+  transform: scale(1.1);
+}
+
+/* Control buttons for new features */
+.control-buttons {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+  flex-wrap: wrap;
+}
+
+.comparison-btn,
+.resolve-conflicts-btn {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.comparison-btn {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.comparison-btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.comparison-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  background: #ccc;
+}
+
+.resolve-conflicts-btn {
+  background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+  color: white;
+}
+
+.resolve-conflicts-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 107, 107, 0.4);
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  color: #e0e0e0;
+}
+
+.dark-mode .app-header {
+  background: rgba(30, 30, 30, 0.95);
+  color: #e0e0e0;
+}
+
+.dark-mode .timetable-section {
+  background: #2d2d2d;
+  color: #e0e0e0;
+}
+
+.dark-mode .selected-course-item {
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+
+.dark-mode .control-buttons button {
+  color: white;
+}
+
+.dark-mode .details-btn {
+  background: rgba(102, 126, 234, 0.2);
+  color: #8bb7ff;
+}
+
+.dark-mode .compare-btn {
+  background: rgba(74, 144, 226, 0.2);
+  color: #7bb3f0;
+}
+
+.dark-mode .remove-btn {
+  background: rgba(255, 107, 107, 0.2);
+  color: #ff9999;
+}
+
+/* Enhanced Features Section */
+.features-section {
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  padding: 3rem 0;
+  margin: 2rem 0;
+}
+
+.features-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.feature-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.feature-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.feature-card h3 {
+  margin: 0 0 1rem 0;
+  color: #333;
+}
+
+.feature-card p {
+  color: #666;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .app-header {
+    padding: 1rem;
+  }
+
+  .app-header h1 {
+    font-size: 2rem;
+  }
+
+  .app-main {
+    padding: 0 0.5rem 1rem 0.5rem;
+  }
+
+  .timetable-section {
+    padding: 1rem;
+  }
+
+  .control-buttons {
+    flex-direction: column;
+  }
+
+  .comparison-btn,
+  .resolve-conflicts-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .course-actions {
+    gap: 0.25rem;
+  }
+
+  .details-btn,
+  .compare-btn,
+  .remove-btn {
+    width: 28px;
+    height: 28px;
+    font-size: 0.9rem;
+  }
+}
